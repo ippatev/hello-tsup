@@ -1,0 +1,13 @@
+{
+  "name": "hello-tsup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^5.11.10",
+    "unplugin": "^0.3.0"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts"
+  }
+}
